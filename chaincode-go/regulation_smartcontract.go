@@ -346,6 +346,7 @@ func (s *SmartContract) Count_reward(ctx contractapi.TransactionContextInterface
 	}
 
 	final_price := order.Price * universal_parameter
+
 	//Payment methods will be implemented here
 
 	return final_price, nil
