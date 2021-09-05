@@ -61,7 +61,7 @@ func (s *SmartContract) InitLedger(ctx contractapi.TransactionContextInterface) 
 		os.Exit(1)
 	}
 	owners := []Owners{
-		{Owner_id: "owner1", Bot_types: "delivery drones", Costs: 100, Owner_key: &OwnerPrivateKey.PublicKey, Owner_rate: 0},
+		{Owner_id: "owner1", Bot_types: "delivery drones", Costs: 100, Owner_key: &OwnerPrivateKey.PublicKey, Owner_rate: 0, Owner_deals: 0},
 	}
 
 	for _, owner := range owners {
