@@ -1,4 +1,4 @@
-module mod
+module chaincode-go
 
 go 1.16
 
